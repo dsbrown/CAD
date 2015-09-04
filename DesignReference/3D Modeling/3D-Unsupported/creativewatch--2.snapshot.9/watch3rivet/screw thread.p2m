@@ -1,0 +1,32 @@
+color texture "color_texname" "Images\textures\thread\thread.jpg" 
+color texture "bump_file_texture" "Images\textures\thread\thread.jpg" 
+
+shader "top_name"  "top_mtl"  
+(
+	 "num_cols"  0 ,
+	 "color_effect"  "2d.p2a" ,
+	 "illum"  "model_7.p2a" ,
+	 "bump"  "bump_1.p2a" ,
+	 "mapping"  2 
+)
+
+material "iii"  "swt_main_phen"  
+(
+	 "col1"  1 1 1 ,
+	 "ctex"  ""color_texname"" ,
+	 "ambient_factor"  0.1 ,
+	 "diffuse_factor"  0.5 ,
+	 "specular_factor"  0.8 ,
+	 "specular_color"  1 1 1 ,
+	 "exponent"  10 ,
+	 "reflectivity"  0.2 ,
+	 "mtl_ior"  1 ,
+	 "transparency"  0 ,
+	 "ambience"  1 1 1 ,
+	 "btex"  "bump_file_texture" ,
+	 "amplitude"  10 ,
+	 "scale_use_mapping"  off ,
+	 "scale"  1 
+	 "sw_shader" screwthread
+)
+end material 

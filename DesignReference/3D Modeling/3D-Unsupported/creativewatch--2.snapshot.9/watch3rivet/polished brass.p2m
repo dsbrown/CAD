@@ -1,0 +1,26 @@
+shader "top_name"  "top_mtl"  
+(
+	 "num_cols"  2 ,
+	 "illum"  "model_car_paint.p2a" 
+)
+
+material "iii"  "swt_main_phen"  
+(
+	 "col1"  0.65 0.52 0.0 ,
+	 "col2"  0.83 0.67 0.13 ,
+	 "pattern_scale"  0 ,
+	 "ambient_factor"  0 ,
+	 "diffuse_factor"  0.3 ,
+	 "specular_factor"  1 ,
+	 "specular_color"  1 0.858824 0.623529 ,
+	 "exponent" 50 ,
+	 "reflectivity"  0.25 ,
+	 "amplitude"  0 ,
+	 "scale"  1e-006 ,
+	 "detail"  1 ,
+	 "sharpness"  1 ,
+	 "rough_high"  1 ,
+	 "rough_low"  0 ,
+	 "sw_shader" polishedbrass
+)
+end material 
